@@ -1,6 +1,9 @@
 # Programming-Patterns
 This repository is for the programming patterns seen in POO
-Design Patterns in C++: This collection has examples of common design patterns. Each folder is for a specific pattern and includes code examples with comments to help understand how each pattern works :)
+
+Design Patterns in C++:
+
+This collection has examples of common design patterns. Each folder is for a specific pattern and includes code examples with comments to help understand how each pattern works :)
 
 # Contents:
 
