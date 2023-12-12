@@ -101,25 +101,6 @@ int main() {
   delete constructor;
   delete producto;
 
-  //Pizza Builder
-  cout << "PIZZA BUILDER PRACTICE" << endl;
-  Oven* construct = new HawaianPizza();
-  Oven* construct1 = new VeggiePizza();
-
-  Chef chef(construct);
-  Chef chef(construct1);
-
-  chef.build();
-
-  Pizza* pizza = construct->getProduct();
-  pizza->print();
-  Pizza* pizza1 = construct1->getProduct();
-  pizza1->print();
-  cout << "" << endl;
-
-  delete construct;
-  delete pizza;
-
   //Prototype
   cout << "PROTORYPE" << endl;
   Prototype* prototype = new ConcretePrototype();
